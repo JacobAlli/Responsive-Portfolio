@@ -26,6 +26,7 @@ h1 {
 
 header {
     height: 100px;
+    width: 100%;
     background: #fff;
     border-bottom: 2px solid #ccc;
     box-shadow: 0 0 3.5px 0;
@@ -277,5 +278,248 @@ footer {
 	border-bottom: 5px solid #4aaaa5;
 }
 
+@media  only screen and (max-width: 980px) {
+    .container {
+        width: 760px;
+        margin: 0 auto;
+    }
 
+    .main-box {
+        width: 60%;
+        height: 800px;
+    }
+
+    .main-box img {  /*  I look fat now xD */
+        height: 200px;
+        width: 100%;
+        margin: 0;
+        margin-top: 25px;
+        padding: 0 25px;
+        display: inline;
+    }
+
+    .side-box {
+        width: 35%;
+    }
+
+    .about-me-info {
+        float: none;
+        width: auto;
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-left: 25px;
+        line-height: 1.7em;
+}
+
+    .about-me-info2 {
+        float: none;
+        margin: 25px 25px 25px 25px;
+        line-height: 1.7em;
+    }
+
+    .port-box {
+        width: 60%;
+        height: 1250px;
+    }
+
+    .row {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .col {
+        display: inline-block;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        margin: 0px;
+        margin-top: 25px;
+        padding: 0 25px;
+        border: 1px solid #ccc;
+    }
+
+    .main-box.contact-box1 {
+        float: left;
+        height: 600px;
+        width: 60%;
+        background: #fff;
+        border: 1px solid #ccc;
+    }
+
+}
+
+@media  only screen and (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+
+    .main-box {
+        width: 100%;
+        height: 450px;
+    }
+
+    .main-box img {  /*  I look fat now xD */
+        height: 200px;
+        width: auto;
+        margin: 0;
+        margin-top: 25px;
+        padding: 0 25px;
+        display: inline;
+        float: left;
+    }
+
+    .about-me-info {
+        display: inline-block;
+        width: 420px;
+    }
+
+
+    .side-box {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .social-icons {
+        text-align: left;
+    }
+
+    .port-box {
+        width: 100%;
+        height: 860px;
+    }
+
+    .col {
+        display: inline-block;
+        width: 42%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        margin: 25px;
+        padding: 0 25px;
+        border: 1px solid #ccc;
+    }
+
+    .main-box.contact-box1 {
+        width: 100%;
+    }
+}
+
+@media  only screen and (max-width: 640px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .name-box {
+        float: none;
+        height: 100px;
+        width: 100vw;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background: #4aaaa5;
+        border-bottom: 2px solid #ccc;
+    }
+
+    header {
+        background: #4aaaa5;
+    }
+
+    .main-nav {
+        float: none;
+        height: 60px;
+        width: 100vw;
+        text-align: center;
+        background: #fff;
+        margin: 0;
+
+    }
+
+    .main-nav a {
+        text-decoration: none;
+        color: #ddd;
+    }
+
+    .main-nav a.active {
+        color: #4aaaa5;
+    }
+
+    .main-nav li {
+        margin-top: 20px;
+        display: inline-block;
+        border-right: 1px solid #999;
+        padding: 3px 15px;
+    }
+
+    .main-box {
+        margin: 70px;
+        margin-left: 5%;
+        width: 90%;
+        height: 1000px;
+    }
+
+    .main-box img {  /*  I look fat now xD */
+        height: 400px;
+        width: 100%;
+        margin: 0;
+        margin-top: 25px;
+        padding: 0 25px;
+        display: inline;
+    }
+
+    .about-me-info {
+        float: none;
+        width: auto;
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-left: 25px;
+        line-height: 1.7em;
+    }
+
+    .about-me-info2 {
+        float: none;
+        margin: 25px 25px 25px 25px;
+        line-height: 1.7em;
+    }
+
+    .side-box {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main-box.contact-box1 {
+        width: 90%;
+    }
+
+    .port-box {
+        margin-top: 70px;
+        width: 90%;
+        margin-left: 5%;
+        height: 1250px;
+    }
+
+    .row {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .col {
+        display: inline-block;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        margin: 0px;
+        margin-top: 25px;
+        padding: 0 25px;
+        border: 1px solid #ccc;
+    }
+
+}
 
